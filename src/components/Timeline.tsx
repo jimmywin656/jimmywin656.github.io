@@ -16,12 +16,29 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="Feb 2026 - Present"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">IT Support Intern</h3>
+            <h5 className="vertical-timeline-element-subtitle"><a className="company-link" href="https://ww2.arb.ca.gov" target="_blank" rel="noopener noreferrer">@ California Air Resources Board</a></h5>
+            <h6 className="vertical-timeline-element-subtitle">Riverside, CA</h6>
+            <p>
+              Provide enterprise-level technical support and endpoint management to ensure secure, reliable 
+              IT operations across the organization.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="Jul 2025 - Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">CALSys Lab Researcher</h3>
-            <h4 className="vertical-timeline-element-subtitle">Pomona, CA</h4>
+            <h3 className="vertical-timeline-element-title">Data Science Researcher</h3>
+            <h5 className="vertical-timeline-element-subtitle"><a className="company-link" href="https://www.cpp.edu/calsys/index.shtml" target="_blank" rel="noopener noreferrer">@ CALSys Lab</a></h5>
+            <h6 className="vertical-timeline-element-subtitle">Pomona, CA</h6>
             <p>
               Built automated data pipelines and ML classifiers to extract and filter drug-related data
               from dark web sources.
@@ -34,7 +51,8 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">UAV Object Detection Developer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Pomona, CA</h4>
+            <h5 className="vertical-timeline-element-subtitle"><a className="company-link" href="https://www.bronco-astra.com" target="_blank" rel="noopener noreferrer">@ Bronco ASTRA</a></h5>
+            <h6 className="vertical-timeline-element-subtitle">Pomona, CA</h6>
             <p>
               Led object detection development, improving YOLOv8 performance through optimized data pipelines and model tuning.
             </p>
@@ -46,7 +64,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Freelance IT Technician</h3>
-            <h4 className="vertical-timeline-element-subtitle">Baldwin Park, CA</h4>
+            <h6 className="vertical-timeline-element-subtitle">Baldwin Park, CA</h6>
             <p>
               Built and troubleshot custom computer systems while providing clear technical support to clients.
             </p>
