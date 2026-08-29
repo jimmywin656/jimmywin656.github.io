@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c9ed8462.css",
-    "main.js": "/static/js/main.76549efd.js",
+    "main.js": "/static/js/main.6f57a3b5.js",
     "static/js/453.a6d816a9.chunk.js": "/static/js/453.a6d816a9.chunk.js",
     "static/media/b-cancer.png": "/static/media/b-cancer.d78c77322e96ea04d7b7.png",
     "static/media/gray_headshot.png": "/static/media/gray_headshot.79ffc7cff31641d6a3a1.png",
@@ -13,11 +13,11 @@
     "static/media/drone_object_detection.webp": "/static/media/drone_object_detection.18ad5fb95e5da453f3d1.webp",
     "index.html": "/index.html",
     "main.c9ed8462.css.map": "/static/css/main.c9ed8462.css.map",
-    "main.76549efd.js.map": "/static/js/main.76549efd.js.map",
+    "main.6f57a3b5.js.map": "/static/js/main.6f57a3b5.js.map",
     "453.a6d816a9.chunk.js.map": "/static/js/453.a6d816a9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9ed8462.css",
-    "static/js/main.76549efd.js"
+    "static/js/main.6f57a3b5.js"
   ]
 }
